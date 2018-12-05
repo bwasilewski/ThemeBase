@@ -29,6 +29,16 @@
 				<div class="navbar-brand">
 					<a href="<?= get_home_url() ?>" class="navbar-item"><?= get_bloginfo('title') ?></a>
 				</div>
+				<div class="navbar-menu">
+					<div class="navbar-start">
+						<a href="#" class="navbar-item">Item 1</a>
+						<a href="#" class="navbar-item">Item 2</a>
+					</div>
+					<div class="navbar-end">
+						<a href="#" class="navbar-item">Item 1</a>
+						<a href="#" class="navbar-item">Item 2</a>
+					</div>
+				</div>
 			</div>
 		</nav>
 	</header>
