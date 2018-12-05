@@ -1,6 +1,16 @@
 # ThemeBase
 
-This is a starter theme based un [_s](https://underscores.me/). 
+This is a starter theme based on [_s](https://underscores.me/). 
+
+Features of this theme include:
+
+* Live reloading with BrowserSync
+* SASS compilation
+* ES5 compliance via Babel
+* Script linting, concatenation and compression
+* Sourcemaps for development and debugging
+* HTML5 templates
+* a 404 template
 
 The following is from the original _s README file:
 
