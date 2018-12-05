@@ -27,9 +27,7 @@
 		<nav class="navbar" role="navigation" aria-label="main navigation">
 			<div class="container">
 				<div class="navbar-brand">
-					<a href="<?= get_home_url() ?>" class="navbar-item">
-						<img src="<?= get_template_directory_uri() ?>/img/grow-media-logo.png" alt="<?= get_bloginfo('title') ?>" width="100" height="70" />
-					</a>
+					<a href="<?= get_home_url() ?>" class="navbar-item"><?= get_bloginfo('title') ?></a>
 				</div>
 			</div>
 		</nav>

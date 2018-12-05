@@ -22,21 +22,21 @@
 			?>
 			<div class="entry-meta">
 				<?php
-				growmedia_posted_on();
-				growmedia_posted_by();
+				themebase_posted_on();
+				themebase_posted_by();
 				?>
 			</div><!-- .entry-meta -->
 		<?php endif; ?>
 	</header><!-- .entry-header -->
 
-	<?php growmedia_post_thumbnail(); ?>
+	<?php themebase_post_thumbnail(); ?>
 
 	<div class="entry-content">
 		<?php
 		the_content( sprintf(
 			wp_kses(
 				/* translators: %s: Name of current post. Only visible to screen readers */
-				__( 'Continue reading<span class="screen-reader-text"> "%s"</span>', 'growmedia' ),
+				__( 'Continue reading<span class="screen-reader-text"> "%s"</span>', 'themebase' ),
 				array(
 					'span' => array(
 						'class' => array(),
@@ -47,13 +47,13 @@
 		) );
 
 		wp_link_pages( array(
-			'before' => '<div class="page-links">' . esc_html__( 'Pages:', 'growmedia' ),
+			'before' => '<div class="page-links">' . esc_html__( 'Pages:', 'themebase' ),
 			'after'  => '</div>',
 		) );
 		?>
 	</div><!-- .entry-content -->
 
 	<footer class="entry-footer">
-		<?php growmedia_entry_footer(); ?>
+		<?php themebase_entry_footer(); ?>
 	</footer><!-- .entry-footer -->
 </article><!-- #post-<?php the_ID(); ?> -->

@@ -14,14 +14,14 @@
 		<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
 	</header><!-- .entry-header -->
 
-	<?php growmedia_post_thumbnail(); ?>
+	<?php themebase_post_thumbnail(); ?>
 
 	<div class="entry-content">
 		<?php
 		the_content();
 
 		wp_link_pages( array(
-			'before' => '<div class="page-links">' . esc_html__( 'Pages:', 'growmedia' ),
+			'before' => '<div class="page-links">' . esc_html__( 'Pages:', 'themebase' ),
 			'after'  => '</div>',
 		) );
 		?>
@@ -34,7 +34,7 @@
 				sprintf(
 					wp_kses(
 						/* translators: %s: Name of current post. Only visible to screen readers */
-						__( 'Edit <span class="screen-reader-text">%s</span>', 'growmedia' ),
+						__( 'Edit <span class="screen-reader-text">%s</span>', 'themebase' ),
 						array(
 							'span' => array(
 								'class' => array(),
