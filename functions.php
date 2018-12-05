@@ -1,10 +1,10 @@
 <?php
 /**
- * Grow Media functions and definitions
+ * ThemeBase functions and definitions
  *
  * @link https://developer.wordpress.org/themes/basics/theme-functions/
  *
- * @package Grow_Media
+ * @package ThemeBase
  */
 
 if ( ! function_exists( 'themebase_setup' ) ) :
@@ -19,7 +19,7 @@ if ( ! function_exists( 'themebase_setup' ) ) :
 		/*
 		 * Make theme available for translation.
 		 * Translations can be filed in the /languages/ directory.
-		 * If you're building a theme based on Grow Media, use a find and replace
+		 * If you're building a theme based on ThemeBase, use a find and replace
 		 * to change 'themebase' to the name of your theme in all the template files.
 		 */
 		load_theme_textdomain( 'themebase', get_template_directory() . '/languages' );

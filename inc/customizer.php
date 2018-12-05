@@ -1,8 +1,8 @@
 <?php
 /**
- * Grow Media Theme Customizer
+ * ThemeBase Theme Customizer
  *
- * @package Grow_Media
+ * @package ThemeBase
  */
 
 /**
