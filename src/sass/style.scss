@@ -107,3 +107,11 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 
 
 @import 'node_modules/bulma/bulma.sass';
+
+.navbar-brand {
+	.navbar-item {
+		img {
+			max-height: inherit;
+		}
+	}
+}
