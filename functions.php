@@ -159,3 +159,7 @@ require get_template_directory() . '/inc/template-tags.php';
 // 	require get_template_directory() . '/inc/jetpack.php';
 // }
 
+/**
+ * Load custom navigation walker function
+ */
+require get_template_directory() . '/inc/walker.php';

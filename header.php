@@ -35,8 +35,15 @@
 						<a href="#" class="navbar-item">Item 2</a>
 					</div>
 					<div class="navbar-end">
-						<a href="#" class="navbar-item">Item 1</a>
-						<a href="#" class="navbar-item">Item 2</a>
+						<!--<a href="#" class="navbar-item">Item 1</a>
+						<a href="#" class="navbar-item">Item 2</a>-->
+						<?php
+								wp_nav_menu( array(
+									'menu' => 'primary'
+									// 'menu_class'     => 'primary-menu',
+									// 'walker' => new ThemeBase_Walker()
+								) );
+						?>
 					</div>
 				</div>
 			</div>
