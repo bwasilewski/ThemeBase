@@ -4,7 +4,7 @@
  *
  * Eventually, some of the functionality here could be replaced by core features.
  *
- * @package Grow_Media
+ * @package ThemeBase
  */
 
 if ( ! function_exists( 'themebase_posted_on' ) ) :

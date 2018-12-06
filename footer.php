@@ -6,7 +6,7 @@
  *
  * @link https://developer.wordpress.org/themes/basics/template-files/#template-partials
  *
- * @package Grow_Media
+ * @package ThemeBase
  */
 
 ?>
@@ -19,13 +19,13 @@
 				<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'themebase' ) ); ?>">
 					<?php
 					/* translators: %s: CMS name, i.e. WordPress. */
-					printf( esc_html__( 'Proudly powered by %s', 'themebase' ), 'WordPress' );
+					printf( esc_html__( 'Powered by %s', 'themebase' ), 'WordPress' );
 					?>
 				</a>
 				<span class="sep"> | </span>
 					<?php
 					/* translators: 1: Theme name, 2: Theme author. */
-					printf( esc_html__( 'Theme: %1$s by %2$s.', 'themebase' ), 'themebase', '<a href="http://benwas.com">Ben Wasilewski</a>' );
+					printf( esc_html__( 'Theme: %1$s', 'themebase' ), '<a href="http://github.com/bwasilewski/themebase">ThemeBase</a>' );
 					?>
 			</div><!-- .site-info -->
 		</div>

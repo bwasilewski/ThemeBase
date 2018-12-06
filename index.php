@@ -9,7 +9,7 @@
  *
  * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
  *
- * @package Grow_Media
+ * @package ThemeBase
  */
 
 get_header();

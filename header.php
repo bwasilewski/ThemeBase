@@ -6,7 +6,7 @@
  *
  * @link https://developer.wordpress.org/themes/basics/template-files/#template-partials
  *
- * @package Grow_Media
+ * @package ThemeBase
  */
 
 ?>
@@ -36,7 +36,7 @@
 						wp_nav_menu( array(
 							'menu_id'		=> 'primary',
 							'container'		=> false,
-							'items_wrap' => '%3$s',
+							'items_wrap' => '%3$s',  // removes the ul wrapper from the menu
 							'walker'		=> new ThemeBase_Walker()
 						) );
 					?>
