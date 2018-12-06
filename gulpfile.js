@@ -13,7 +13,8 @@ const gulp = require('gulp'),
 
 gulp.task('serve', () => {
   browserSync.init({
-    proxy: 'themebase.test'
+    proxy: 'themebase.test',
+    notify: false
   })
 
   gulp.watch('./src/sass/**/*.scss', ['sass'])

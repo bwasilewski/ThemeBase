@@ -30,18 +30,20 @@
 					<a href="<?= get_home_url() ?>" class="navbar-item"><?= get_bloginfo('title') ?></a>
 				</div>
 				<div class="navbar-menu">
-					<div class="navbar-start">
-						<a href="#" class="navbar-item">Item 1</a>
-						<a href="#" class="navbar-item">Item 2</a>
-					</div>
+					<div class="navbar-start"></div>
 					<div class="navbar-end">
-						<!--<a href="#" class="navbar-item">Item 1</a>
-						<a href="#" class="navbar-item">Item 2</a>-->
-						
+					<?php
+						wp_nav_menu( array(
+							'menu_id'		=> 'primary',
+							'container'		=> false,
+							'items_wrap' => '%3$s',
+							'walker'		=> new ThemeBase_Walker()
+						) );
+					?>
 					</div>
 				</div>
 			</div>
 		</nav>
 	</header>
-
+	
 	<div id="content" class="site-content">
