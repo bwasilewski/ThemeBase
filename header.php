@@ -27,7 +27,7 @@
 		<nav class="navbar" role="navigation" aria-label="main navigation">
 			<div class="container">
 				<div class="navbar-brand">
-					<a href="<?= get_home_url() ?>" class="navbar-item"><?= get_bloginfo('title') ?></a>
+					<a href="<?= get_home_url() ?>" class="navbar-item"><h1 class="title is-1"><?= get_bloginfo('title') ?></h1></a>
 				</div>
 				<div class="navbar-menu">
 					<div class="navbar-start"></div>
